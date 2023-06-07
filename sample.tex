@@ -1,0 +1,41 @@
+\documentclass[noinfo]{article}
+\usepackage[dvips=false,pdftex=false,vtex=false]{geometry}
+\usepackage[cross,letter,center,noinfo]{crop}
+\usepackage[skip=1em]{parskip}
+\usepackage{changepage}
+\geometry{
+   paperwidth=15cm,
+   paperheight=7.5cm,
+   margin=0cm
+}
+\setlength{\parindent}{0in}
+
+
+\begin{document}
+\pagestyle{empty}
+
+\setlength{\unitlength}{1mm}
+\begin{picture}(150, 22)(0, 0)
+   \put(11, 11){\circle{6}}
+   \put(139, 11){\circle{6}}
+\end{picture}
+
+\vspace*{\fill}
+
+\begin{adjustwidth}{2cm}{-2cm} 
+\begin{large}
+Kate Albert
+\end{large}
+
+\begin{large}
+Cincinnati Nature Center
+\end{large}
+    
+Acrylic on canvas
+
+Painted in celebaration of the Nature Center's 50th Anniversary
+\end{adjustwidth}
+
+\vspace{2cm}
+
+\end{document}
